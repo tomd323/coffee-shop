@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+.icon-01 {
+    width: 50px;
+}
+
+/* typography - regular weight as standard - weight and style changes made in specific file for example menu.css */
+.font-grey {
+    color: #393939;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrap {
+    text-wrap: wrap;
+}
+
+.nowrap {
+    text-wrap: nowrap;
+}
+
+.balance {
+    text-wrap: balance;
+}
+
+.nav {
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.nav-bar__display {
+    display: flex;
+    width: 100%;
+    background-color: #FFF0ED;
+    padding-left: 0px;
+}
+
+.nav-list__text {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #393939;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav-list__link {
+    text-decoration: none;
+    color: #393939;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nav-list__link-02 {
+    text-decoration: none;
+    color: #5BACC3;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sub-nav {
+    list-style-type: none;
+    width: 100%;
+    background-color: #393939;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 700px;
+}
+
+.sub-nav__position {
+padding-top: 15px;
+padding-bottom: 15px;
+margin: 0px;
+}
+
+.sub-nav__text {
+    border-left: #5BACC3 5px solid;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.primaryTextColor {
+    color: #5BACC3;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+nav {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+.primary-1 {
+    background-color: #5BACC3;
+}
+
+.primary-2 {
+    background-color: #FFF0ED;
+}

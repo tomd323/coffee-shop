@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.section-01 {
+    width: 100%;
+    height: 652px;
+    display: inline-flex;
+    align-content: center;
+}
+
+.section-01__display {
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: flex-start;
+align-items: baseline;
+width: 50%;
+
+}
+
+.section-01__article-header {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.section-01__article-text {
+    font-weight: 500;
+    inline-size: 40%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.section-01__button {
+    color: white;
+    background-color: #5BACC3;
+    border: none;
+    font-size: 1em;
+    padding: 15px 45px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.section-01__closeMargin-cards {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.section-01__img {
+    height: 480px;
+    margin-top: 100px;
+    margin-left: 200px;
+} 
+
+.discountSection-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+
+.article__display {
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px;
+    Box shadow color: rgba(0, 0, 0, 0.25);
+    width: 330px;
+    height: 440px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.article__display-card01 {
+    /* margin-left: 130px; */
+}
+
+.article__itemCard-text {
+    text-align: center;
+
+}
+
+.article__card-img {
+    margin-left: 80px;
+}
+
+.article__card-button {
+    padding-top: ;
+}
+.discount-banner {
+    font-family: 'Open Sans';
+    background-color: #393939;
+    width: 60%;
+    color: white;
+    font-size: 2.5em;
+    padding: 35px 75px;
+    text-align: center;
+
+}
+
+.discount-banner__padding {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.footer-address_bold {
+    font-weight: 700;
+}
+
+.footer-address_icons {
+    width: 50px;
+}
+
+.footer-article__display {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer-article__display-01 {
+    margin-left: 20%;
+}

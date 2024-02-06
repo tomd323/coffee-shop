@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.nitro {
+    font-weight: 300;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.img {
+    width: 100%;
+    height: 700px;
+    background-image: url("../assets/images/coffee-circle.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.menu {
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    margin: 0px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    background-color: #393939;
+    margin-left: 42%;
+}
+
+.hot-stuff {
+    text-align: center;
+}
+
+.hotDrinks__margin-close {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.items-text-p {
+    font-style: italic;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    inline-size: 26%;
+    text-align: center;
+    margin-left: 700px;
+}
+
+/* #wrap {
+    text-wrap: balance;
+} */
+
+.cold-stuff {
+    background-color: #f7f7f7;
+}
+
+.price {
+    color: #5BACC3;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+/* border box - see slides */
