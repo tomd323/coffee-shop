@@ -40,7 +40,8 @@
     display: flex;
     width: 100%;
     background-color: #FFF0ED;
-    padding-left: 0px;
+    padding-left: 20px;
+    justify-content: space-between;
 }
 
 .nav-list__text {
@@ -50,6 +51,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
+    padding-right: 20px;
 }
 
 .nav-list__link {
