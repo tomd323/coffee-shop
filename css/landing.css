@@ -108,22 +108,45 @@
 .article__card-img {
     margin-left: 100px;
     margin-top: 20px;
-    height: 236px; 
+    height: 236px;
+}
+
+.section02-display {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .section02-article__display {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
 
+.section02-article__img {
+    background-image: url("../assets/images/coldbrewbackground.png");
+    background-size: 402px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.section02-article__img02 {
+    position: relative;
+    left: 100px;
+    top: 40px;
 }
 
 .section02-article__icon {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .section02-article__button {
-width: 300px;
+    width: 300px;
 }
 
 .discount-banner {
@@ -153,9 +176,9 @@ width: 300px;
 }
 
 .footer-article__display {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
-    margin: 20px;
 }
 
 .footer-article__display-01 {
