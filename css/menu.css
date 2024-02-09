@@ -25,6 +25,8 @@
     font-weight: 300;
     color: white;
     background-color: #393939;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
 .menu-text {
@@ -39,6 +41,15 @@
 }
 .hot-stuff {
     text-align: center;
+}
+
+.button-style-over05{
+    border: #5BACC3 5px solid;
+    width: 295px;
+    height: 195px;
+    position: relative;
+    top: -180px;
+    left: -15px;
 }
 
 .hotDrinks__margin-close {
